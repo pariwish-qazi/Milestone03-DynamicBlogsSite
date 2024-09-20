@@ -45,17 +45,7 @@ const Blogs: React.FC = () => {
         </h2>
 
          {/* Blog Cards Grid */}
-         {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {blogPosts.map((post) => (
-            <Card
-              key={post.id}
-              heading={post.title}
-              text={post.content.substring(0, 100) + "..."} // Display first 100 characters
-              postId={post.id} // Pass postId here
-              image={post.image} // Pass image URL here
-            />
-          ))}
-        </div> */}
+         
         </div>
         </div>
         
